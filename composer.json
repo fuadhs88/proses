@@ -1,0 +1,26 @@
+{
+    "name": "fuadhs88/proses",
+    "description": "extend CCTV Proses",
+    "type": "library",
+    "keywords": ["Proses", "extension"],
+    "homepage": "https://github.com/fuadhs88/proses",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fuadhs",
+            "email": "fuadhs@igg.co.id"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\Proses\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+}
